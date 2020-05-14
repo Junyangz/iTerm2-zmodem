@@ -10,7 +10,7 @@ MacOS iTerm2 lrzsz(rz, sz)
 
 * Change the script mode bits for execute.
 
-```sh
+```zsh
 #!/usr/bin/env zsh
 # scirpt from https://gist.github.com/zthxxx/9171c12538605d92781b74274ba8b9e1
 brew install lrzsz
@@ -23,6 +23,8 @@ curl -sSL https://github.com/Junyangz/iterm2-zmodem/raw/master/iterm2-send-zmode
 
 chmod +x "$recv" "$send"
 ```
+
+`zsh <(curl -s https://github.com/Junyangz/iterm2-zmodem/raw/master/iterm2-zmodem.sh)`
 
 * Setup iTerm2 Trigger for process the folder to place received files in for rz and choose a file to send for sz.
 
